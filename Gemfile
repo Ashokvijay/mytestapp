@@ -19,3 +19,4 @@ gem "launchy", ">= 2.1.2", :group => :test
 gem "capybara", ">= 1.1.3", :group => :test
 gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
 gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
+gem 'debugger'
