@@ -26,9 +26,6 @@ namespace :load do
     end
     desc "load all" 
     task :all => [:players,:teams,:order] do
-      CSV.foreach("#{Rails.root}/doc/order.csv",{:headers => true}) do |row|
-            puts row
-      end
     end
 end
 
